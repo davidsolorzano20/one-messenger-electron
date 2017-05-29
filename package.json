@@ -1,0 +1,24 @@
+{
+  "name": "onemessenger",
+  "nameProduct": "One Messenger",
+  "version": "3.5.2",
+  "description": "One Messenger application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . OneMessenger --platform linux --arch x64 --out dist/",
+    "deb64": "electron-installer-debian --src dist/OneMessenger-linux-x64/ --dest dist/installers/ --arch amd64 --section Internet --icon assets/Icons/icon.png"
+  },
+  "author": "David Paredes",
+  "license": "CC0-1.0",
+  "bin": "",
+  "devDependencies": {
+    "electron": "^1.6.10",
+    "electron-installer-debian": "^0.4.0",
+    "electron-installer-windows": "^0.2.0",
+    "electron-packager": "^8.4.0",
+    "electron-prebuilt": "^1.4.13",
+    "test": "^0.6.0",
+    "url": "^0.11.0"
+  }
+}

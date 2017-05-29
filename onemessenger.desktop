@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=One Messenger
+Comment=One Messenger application
+GenericName=One Messenger
+Exec=/usr/share/onemessenger/OneMessenger
+Icon=/usr/share/onemessenger/resources/app/assets/Icons/icon.png
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;Internet;
+

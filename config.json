@@ -1,0 +1,8 @@
+{
+  "dest": "dist/installers/",
+  "icon": "assets/Icons/icon.png",
+  "section": "Internet",
+  "lintianOverrides": [
+    "changelog-fileCo-missing-in-native-package"
+  ]
+}
